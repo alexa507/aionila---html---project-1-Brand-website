@@ -1,0 +1,154 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#f6ece2;
+}
+html {
+	margin:0;
+	padding:0;
+}
+nav {
+	width:960px;
+	height:auto;
+	text-align:right;
+	vertical-align:middle;
+	padding:0;
+	margin:0;
+	background-color:#f06575;
+}
+li a{
+	font:20px 'Georgia';
+	display:inline-block;
+	text-decoration:none;
+	vertical-align:middle;
+	padding:15px 25px;
+	color:white;
+} 
+a:hover {
+	font-style: italic;
+	color: #f23a4f;
+	background-color:#f07381;
+}
+li {
+	font:20px 'Georgia';
+	margin:0;
+	list-style:none;
+	color:white;
+}
+h1 {
+	font:32px 'Lucida Calligraphy';
+	font-style:italic;
+	color:#f36273;
+}
+h2 {
+	font:26px 'Lucida Sans Unicode';
+	color:#f15c7f;
+}
+p {
+	font: 20px 'Georgia';
+}
+input.n {
+	display:inline-block;
+	float:right;
+}
+textarea {
+	width:600px;
+	height:300px;
+	padding:0;
+	margin:0;
+}
+footer {
+	font: 14px 'Georgia';
+	text-align:center;
+	color:#f889a8;
+}
+
+#logo {
+	padding-bottom:0;
+	display:inline-block;
+	text-align:left;
+	vertical-align:middle;
+	float:left;
+}
+#overlay{
+	height:auto;
+	overflow:auto;
+	border-bottom:3px solid #f32256;
+	border-top:3px solid #f32256;
+}
+#container{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	padding:0;
+}
+#hp{
+	float:center;
+}
+#box {
+	width:330px;
+	height:auto;
+}
+
+
+.main {
+	text-decoration:none;
+	display:inline-table;
+	list-style:none;
+}
+.main ul {
+	display: none;
+	text-decoration:none;
+	list-style:none;
+	position:absolute;
+	list-style:none;
+}
+.content{
+	column-count: 3;
+}	
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	border-color:#f23a4f;
+}
+.tg th{
+	font:25px 'Arial';
+	padding:15px 10px;
+	border-style:solid;
+	border-width:2px;
+	overflow:hidden;
+	color:#fff;
+	border-color:#f23a4f;
+	background-color:#f06575;
+}
+.tg td{
+	font:25px 'Arial';
+	padding:15px 10px;
+	border-style:solid;
+	border-width:2px;
+	overflow:hidden;
+	color:#f32256;
+	border-color:#f23a4f;
+	background-color:#F6ECE2;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul:after {
+	content: ""; 
+	clear: both; 
+	display: block;
+}
+nav ul ul li {
+	float: center; 
+	position: center;
+	background-color:#f07381;
+	border-top: 2px solid #f0a3ac;
+	border-bottom: 2px solid #f0a3ac;
+}
+nav ul ul li a:hover {
+	font-style: italic;
+	color: #f23a4f;
+	background-color:#f07381;
+}

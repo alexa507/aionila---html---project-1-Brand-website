@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Book Now SwL</title>
+<link href="../css/Layout.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+<nav>
+	<a href="../Home.html"><img id="logo" src="../images/LOGO.jpg" height=60px alt="logo" /></a>
+	<ul>
+	<li class="main"><a href="../aboutus/Aboutus.html">About Us</a>
+		<ul>
+		<li class="sub"><a href="../aboutus/history/History.html">History</a></li>
+		<li class="sub"><a href="../aboutus/team/Team.html">Team</a></li>
+		</ul>
+	</li>
+	<li class="main"><a href="../services/Services.html">Services</a>
+		<ul>
+		<li class="sub"><a href="../services/cakes/Cakes.html">Cakes</a></li>
+		<li class="sub"><a href="../services/combos/Combos.html">Combos</a></li>
+		<li class="sub"><a href="../services/other/Other.html">Other</a></li>
+		</ul>
+	</li>
+	<li class="main"><a href="BookNow.html">Book Now</a></li>
+	<li class="main"><a href="../workshops/Workshops.html">Workshops</a>
+		<ul>
+		<li class="sub"><a href="../workshops/comingup/ComingUp.html">Coming-Up</a></li>
+		</ul>
+	</li>
+	<li class="main"><a href="../gallery/Gallery.html">Gallery</a></li>
+	<li class="main"><a href="../contact/Contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+<div id="overlay">
+<h1>Book now:</h1>
+<p>If you want us to make your dream event happen you can fill the form below and we will 
+get back to you as soon as possible.</p>
+<form name="bookings" action="http://vip.groupehn.com:20003/html/infospost.php" method="POST">
+<div id="box">
+<p>Last Name</p>
+ <input class="main" id="lastname" type="text" name="lastname" />
+<p>First Name</p>
+ <input class="main" id="firstname" type="text" name="firstname" />
+<p>Email</p>
+ <input class="main" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" />
+<p>Your Order</p> 
+<textarea class="main" name="request" id="request" cols="66" rows="10"></textarea>
+<p>Your country</p> 
+<select class="main" name="country" id="country">
+	<option value="ch">Choose now</option>
+      <option value="aus">Austria</option>
+      <option value="bel">Belgium</option>
+      <option value="bul">Bulgaria</option>
+	<option value="cro">Croatia</option>
+      <option value="repCy">Republic of Cyprus</option>
+      <option value="czRep">Czech Republic</option>
+      <option value="den">Denmark</option>
+      <option value="est">Estonia</option>
+      <option value="fin">Finland</option>
+	<option value="fra">France</option>
+      <option value="ger">Germany</option>
+      <option value="gre">Greece</option>
+      <option value="hun">Hungary</option>
+      <option value="ire">Ireland</option>
+      <option value="ita">Italy</option>
+	<option value="lat">Latvia</option>
+      <option value="lit">Lithuania</option>
+      <option value="lux">Luxembourg</option>
+      <option value="mal">Malta</option>
+      <option value="neth">Netherlands</option>
+      <option value="pol">Poland</option>
+	<option value="por">Portugal</option>
+      <option value="rom">Romania</option>
+      <option value="slova">Slovakia</option>
+      <option value="slove">Slovenia</option>
+      <option value="spa">Spain</option>
+      <option value="swe">Sweden</option>
+</select></p>
+<button type="submit">Book now</button>
+<br><br>
+</div>
+</form>
+</div>
+</div>
+<footer>Alexandra Ionila Copyright 2022</footer>
+</body>
+</html>
